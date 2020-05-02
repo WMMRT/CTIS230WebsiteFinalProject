@@ -47,3 +47,31 @@ h2.introH{
     font-style: oblique;
     text-decoration: underline;
 }
+
+img#founder{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    display: block;
+
+}
+h3.date{
+    font-size: larger;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+p.introP{
+    font-size: larger;
+    font-weight: 500;
+    font-family: Tahoma, sans-serif;
+    margin-bottom: 5%;
+}
+
+footer{
+    background-color: lightgreen;
+    padding-top: 5%;
+}
