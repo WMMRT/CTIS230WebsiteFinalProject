@@ -11,7 +11,7 @@ div.nav{
     border: darkgreen;
     background-color: rgba(144, 238, 144, 0.644);
     border-style: ridge;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 10;
     margin-right: 10;
     padding-top: 1%;
@@ -21,11 +21,22 @@ div.nav{
     font-size: larger;
     color: black;
     font-family: tahoma, sans-serif;
+    
 }
-
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-weight: 800;
+}
 header{
     background-color: lightgreen;
-    padding: 5%;
+    padding: 10%;
+    background-image: url("images/grasstemplate.jpg");
+    
+    /*https://search.creativecommons.org/photos/c9e779c8-1861-4c94-bae7-ea13d492ef9d
+        This is the url to the creative commons picture used here
+    */
 }
 
 h2.introH{
