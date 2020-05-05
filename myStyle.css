@@ -3,6 +3,16 @@ body{
     margin-right: 5%;
 }
 
+
+div#heading{
+    font-size: xx-large;
+    font-family: Tahoma, sans-serif;
+    background-color: rgba(144, 238, 144, 0.801);
+    color: rgba(0, 0, 0, 0.945);
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
 div.flexible{
     display: flex;
 }
@@ -30,7 +40,7 @@ a{
     font-weight: 800;
 }
 header{
-    background-color: lightgreen;
+    
     padding: 10%;
     background-image: url("images/grasstemplate.jpg");
     
@@ -69,9 +79,23 @@ p.introP{
     font-weight: 500;
     font-family: Tahoma, sans-serif;
     margin-bottom: 5%;
+    line-height: 2em;
 }
 
 footer{
     background-color: lightgreen;
     padding-top: 5%;
+   
+}
+a.linkli{
+    color: blue;
+    text-decoration: underline;
+}
+
+li
+{
+    font-size: larger;
+    line-height: 2em;
+    font-family: Tahoma,sans-serif;
+    font-weight: 500;
 }
