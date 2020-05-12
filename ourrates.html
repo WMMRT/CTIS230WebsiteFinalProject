@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <!--Doing this to update github-->
-    <head>
-        <title>Our Rates</title>
-        <link rel="stylesheet" href="myStyle.css">
-    </head>
+<!--Doing this to update github-->
 
-    <body>
-        <header>
-            <div class="heading">Webster's Lawn Upkeep Service</div>
-        </header>
-        <section>
-            <div class="flexible">
-                <div class="nav"><a href="home.html">Home</a></div>
-                <div class="nav"><a href="aboutus.html">About Us</a></div>
-                <div class="nav"><a href="whyus.html">Why Choose Us?</a></div>
-                <div class="nav"><a href="contactus.html">Contact Us</a></div>
-                <div class="nav"><a href="ourequipment.html">Our Equipment</a></div>
-                <div class="nav"><a href="ourrates.html">Our Rates</a></div>
-            </div>
+<head>
+    <title>Our Rates</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="hourlyrate.js" defer></script>
+</head>
 
-            <h2 class="introH">Our Rates</h2>
-        </section>
-        <footer>
-            <!--I have not created the social media accounts for the fake business yet-->
-            <p>Follow us on: <a href=""><img src="images/facebook.png" width=20 alt="Facebook"></a> <a href=""><img
-                src="images/twitter.png" alt="Twitter" width=30></a> <a href=""><img src="images/instagram.jpg"
-                alt="Instagram" width=25></a>
-    </p>
-        </footer>
+<body>
+    <header>
+        <div class="heading">Webster's Lawn Upkeep Service</div>
+    </header>
+    <section>
+        <div class="flexible">
+            <div class="nav"><a href="home.html">Home</a></div>
+            <div class="nav"><a href="aboutus.html">About Us</a></div>
+            <div class="nav"><a href="whyus.html">Why Choose Us?</a></div>
+            <div class="nav"><a href="contactus.html">Contact Us</a></div>
+            <div class="nav"><a href="ourequipment.html">Our Equipment</a></div>
+            <div class="nav"><a href="ourrates.html">Our Rates</a></div>
+        </div>
 
-    </body>
+        <h2 class="introH">Our Rates</h2>
+        <p class="introP">
+            Webster Lawncare charges a consistent hourly rate of $30 to mow your lawn. When you book your hours, you can
+            uses the calculator below to figure up your price, and plan accordingly. All costs associated with travel
+            and gasoline will be included in this calculation. If the price for the amount of hours seems good to you,
+            you can book an appointment on our <a href="contactus.html" class="normal">Contact Us</a> page.
+        </p>
+        <!--I need to add more text here, but don't know what-->
+        <input type="number" id="myinput">
+        <button id="thebutton">Calculate</button>
+        <p type="number" id="value">0</p>
+    </section>
+    <footer>
+        <!--I have not created the social media accounts for the fake business yet-->
+        <p>Disclaimer: This is a fictional business created for a class, and does not offer any actual services. If
+            stumbled upon (have no idea how that could be possible, but this is to be safe), just ignore </p>
+        <p>Follow us on: <a href=""><img src="images/facebook.png" width=20 alt="Facebook"></a> <a href=""><img
+                    src="images/twitter.png" alt="Twitter" width=30></a> <a href=""><img src="images/instagram.jpg"
+                    alt="Instagram" width=25></a>
+        </p>
+        <!--I need to find something more to add to the footer-->
+    </footer>
+
+</body>
+
 </html>

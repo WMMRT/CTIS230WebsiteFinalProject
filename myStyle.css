@@ -11,7 +11,7 @@ div.heading{
     color: rgba(0, 0, 0, 0.945);
     position: absolute;
     top: 80px;
-    left: 100px;
+    left: 425px;
 }
 div.flexible{
     display: flex;
@@ -22,8 +22,8 @@ div.nav{
     background-color: rgba(144, 238, 144, 0.644);
     border-style: ridge;
     justify-content: space-evenly;
-    margin-left: 10;
-    margin-right: 10;
+    margin-left: 1px;
+    margin-right: 1px;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 5%;
@@ -41,7 +41,7 @@ a{
 }
 header{
     
-    padding: 10%;
+    padding: 7.5%;
     background-image: url("images/grasstemplate.jpg");
     
     /*https://search.creativecommons.org/photos/c9e779c8-1861-4c94-bae7-ea13d492ef9d
@@ -98,4 +98,36 @@ li
     line-height: 2em;
     font-family: Tahoma,sans-serif;
     font-weight: 500;
+}
+
+div.equipment{
+    border: groove;
+    height: 200px;
+
+}
+img#ridingmower{
+    float: left;
+    padding:1%;
+    width: 200px;
+}
+
+img#pushmower{
+    float: left;
+    padding:1%;
+    width: 200px;
+}
+
+img#weedeater{
+    float: left;
+    padding:1%;
+    width: 200px;
+}
+img#pushweedeater{
+    float: left;
+    padding:1%;
+    width: 200px;
+}
+a.normal{
+    text-decoration: underline;
+    color: blue;
 }
