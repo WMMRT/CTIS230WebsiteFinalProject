@@ -154,6 +154,8 @@ a.normal{
     div.nav{
         padding-left: 1%;
         padding-right: 1%;
+        font-size: 50em;
+        text-align: center;
         
     
     }
@@ -162,13 +164,13 @@ a.normal{
     margin-left: 0;
     margin-right: 0%;
     margin-bottom: 0%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
     
     } 
     footer{
-        padding-left: 2%;
-    padding-right: 2%;
+        padding-left: 0%;
+    padding-right: 0%;
     }
 
     div.heading{
@@ -178,6 +180,51 @@ a.normal{
         font-size: xx-large;
 
     }
+    div.equipment{
+        border: groove;
+        height: 1200px;
+        font-size: 5em;
+    
+    }
+    img#ridingmower{
+        float: none;
+        padding:1%;
+        width: 700px;
+    }
+    
+    img#pushmower{
+        float: none;
+        padding:1%;
+        width: 700px;
+    }
+    
+    img#weedeater{
+        float: none;
+        padding:1%;
+        width: 700px;
+    }
+    img#pushweedeater{
+        float: none;
+        padding:1%;
+        width: 700px;}
+
+    footer{
+        font-size: 3.5em;
+    }
+    iframe#calender{
+        width:1400;
+        height: 1000;
+    }
+    button#thebutton{
+        width: 20%;
+        height:20%;
+        font-size: xx-large;
+    }
+    input#myinput{
+        width: 20%;
+        height:20%;
+    }
+    
 }
 @media all and (orientation:portrait){
     body{
@@ -197,28 +244,78 @@ a.normal{
     div.nav{
         padding-left: 1%;
         padding-right: 1%;
+        font-size: xx-large;
+        text-align: center;
         
     
     }
+
     section{
         margin-top: 0%;
     margin-left: 0;
     margin-right: 0%;
     margin-bottom: 0%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
     
     } 
     footer{
-        padding-left: 2%;
-    padding-right: 2%;
+        padding-left: 0%;
+    padding-right: 0%;
     }
 
     div.heading{
         position: absolute;
         top: 30px;
         left: 25px;
-        font-size: x-large;
+        font-size: 3.5em;
+
 
     }
+    div.equipment{
+        border: groove;
+        height: 1200px;
+        font-size: 5em;
+    
+    }
+    img#ridingmower{
+        float: none;
+        padding:1%;
+        width: 700px;
+    }
+    
+    img#pushmower{
+        float: none;
+        padding:1%;
+        width: 700px;
+    }
+    
+    img#weedeater{
+        float: none;
+        padding:1%;
+        width: 700px;
+    }
+    img#pushweedeater{
+        float: none;
+        padding:1%;
+        width: 700px;}
+
+    footer{
+        font-size: 3.5em;
+    }
+    iframe#calender{
+        width:1400;
+        height: 1000;
+    }
+    button#thebutton{
+        width: 20%;
+        height:20%;
+        font-size: xx-large;
+    }
+    input#myinput{
+        width: 20%;
+        height:20%;
+    }
 }
+
+
