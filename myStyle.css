@@ -3,6 +3,7 @@ body{
     margin-right: 5%;
 }
 
+
 /*<!--Doing this to update github-->*/
 div.heading{
     font-size: xx-large;
@@ -130,4 +131,94 @@ img#pushweedeater{
 a.normal{
     text-decoration: underline;
     color: blue;
+}
+
+
+@media  (max-width: 600px)
+
+{
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 100%;
+        
+
+        
+    }
+
+   
+    div.flexible{
+
+        flex-direction: column;
+    }
+    div.nav{
+        padding-left: 1%;
+        padding-right: 1%;
+        
+    
+    }
+    section{
+        margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    } 
+    footer{
+        padding-left: 2%;
+    padding-right: 2%;
+    }
+
+    div.heading{
+        position: absolute;
+        top: 30px;
+        left: 25px;
+        font-size: xx-large;
+
+    }
+}
+@media all and (orientation:portrait){
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 100%;
+        
+
+        
+    }
+
+   
+    div.flexible{
+
+        flex-direction: column;
+    }
+    div.nav{
+        padding-left: 1%;
+        padding-right: 1%;
+        
+    
+    }
+    section{
+        margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    } 
+    footer{
+        padding-left: 2%;
+    padding-right: 2%;
+    }
+
+    div.heading{
+        position: absolute;
+        top: 30px;
+        left: 25px;
+        font-size: x-large;
+
+    }
 }
